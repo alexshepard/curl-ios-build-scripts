@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require "lib/curl_builder"
+require "./lib/curl_builder"
 
 
 
