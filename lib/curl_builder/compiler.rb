@@ -57,7 +57,7 @@ module CurlBuilder
     def platform_for(architecture)
       case architecture
       when "x86_64"
-        "MacOSX"
+        "iPhoneSimulator"
       when "i386"
          "iPhoneSimulator"
       else
