@@ -57,7 +57,7 @@ module CurlBuilder
     def platform_for(architecture)
       case architecture
       when "x86_64"
-        "iPhoneSimulator"
+        setup(:osx_sdk_version) == "none" ? "iPhoneSimulator" : "MacOSX"
       when "i386"
         "iPhoneSimulator"
       else
